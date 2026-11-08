@@ -61,7 +61,7 @@ export default function Nav() {
           href="#top"
           className="font-display text-lg font-semibold tracking-tight"
         >
-          Imrexx
+          @Imrexx_dev
         </a>
 
         <nav className="hidden items-center gap-1 sm:flex" aria-label="Sections">
