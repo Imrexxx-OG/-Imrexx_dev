@@ -10,11 +10,11 @@ export default function Process() {
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <Reveal>
           <span className="mb-3 block h-[3px] w-8 rounded-full bg-signal-pass" />
-          <p className="font-mono text-sm text-muted-light dark:text-muted-dark">
+          {/* <p className="font-mono text-sm text-muted-light dark:text-muted-dark">
             How we&apos;d work together
-          </p>
+          </p> */}
           <h2 className="mt-2 font-display text-2xl font-semibold tracking-tight sm:text-3xl">
-            Four steps, no surprises
+            How we&apos;d work together
           </h2>
         </Reveal>
 
