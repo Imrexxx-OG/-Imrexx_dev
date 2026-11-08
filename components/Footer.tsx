@@ -5,7 +5,7 @@ import CopyEmail from "./CopyEmail";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="scroll-mt-20 border-t border-line-light bg-paper dark:border-line-dark dark:bg-ink-900/40">
+    <footer id="contact" className="scroll-mt-20">
       <div className="mx-auto max-w-5xl px-5 py-10 sm:px-8">
         <Reveal>
           <div className="relative overflow-hidden rounded-xl2 bg-ink-950 px-6 py-14 text-center text-paper-light shadow-card-dark sm:py-16">
@@ -27,13 +27,7 @@ export default function Footer() {
                 >
                   <XIcon className="h-4 w-4" /> DM on X
                 </a>
-                <a
-                  href={`mailto:${social.email}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 text-sm font-medium text-paper-light transition hover:-translate-y-0.5 hover:border-white/50"
-                >
-                  <CopyEmail email={social.email} />
-                  <MailIcon className="h-4 w-4" /> Email
-                </a>
+                <CopyEmail email={social.email} />
               </div>
             </div>
           </div>
