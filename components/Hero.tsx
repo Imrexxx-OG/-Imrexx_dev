@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="bg-grid pointer-events-none absolute inset-0" />
       <div className="glow pointer-events-none absolute -top-24 left-1/2 h-72 w-[36rem] -translate-x-1/2" />
 
-      <div className="relative mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28">
+      <div className="hero-stagger relative mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28">
         {availability.open && (
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-line-light bg-paper-card px-3 py-1 dark:border-line-dark dark:bg-ink-900">
             <span className="relative flex h-2 w-2">
