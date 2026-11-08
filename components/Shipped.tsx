@@ -18,7 +18,7 @@ export default function Shipped() {
         <div className="mt-8 grid gap-5 sm:grid-cols-2">
           {shipped.map((item, i) => (
             <Reveal key={item.name} delay={i * 60}>
-              <div className="flex h-full flex-col rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
+              <div className="flex h-full flex-col spotlight rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="text-lg font-semibold">{item.name}</h3>
                   <div className="flex flex-none gap-1.5">

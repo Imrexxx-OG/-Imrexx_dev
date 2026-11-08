@@ -18,7 +18,7 @@ export default function Vouches() {
         <div className="mt-8 grid gap-5 sm:grid-cols-2">
           {vouches.map((v, i) => (
             <Reveal key={v.handle} delay={i * 60}>
-              <figure className="h-full rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
+              <figure className="h-full spotlight rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
                 <blockquote className="font-display text-[1.05rem] italic leading-snug text-ink-950 dark:text-paper">
                   &ldquo;{v.quote}&rdquo;
                 </blockquote>

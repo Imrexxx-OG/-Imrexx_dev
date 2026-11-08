@@ -27,7 +27,7 @@ export default function Services() {
             const Icon = iconMap[service.icon];
             return (
               <Reveal key={service.title} delay={i * 60}>
-                <div className="h-full rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
+                <div className="h-full spotlight rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-signal-pass/10 text-signal-pass">
                     <Icon className="h-5 w-5" />
                   </div>

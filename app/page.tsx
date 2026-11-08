@@ -8,10 +8,15 @@ import Shipped from "@/components/Shipped";
 import Vouches from "@/components/Vouches";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
+import ScrollProgress from "@/components/ScrollProgress";
+import SpotlightTracker from "@/components/SpotlightTracker";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
     <>
+      <ScrollProgress />
+      <SpotlightTracker />
       <Nav />
       <main>
         <Hero />
@@ -24,6 +29,7 @@ export default function Home() {
         <Faq />
         <Footer />
       </main>
+      <BackToTop />
     </>
   );
 }

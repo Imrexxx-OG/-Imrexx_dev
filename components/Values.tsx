@@ -30,7 +30,7 @@ export default function Values() {
             const Icon = iconMap[value.icon];
             return (
               <Reveal key={value.title} delay={i * 60}>
-                <div className="flex h-full gap-4 rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
+                <div className="flex h-full gap-4 spotlight rounded-xl2 border border-line-light bg-paper-card p-6 shadow-card transition hover:-translate-y-1 hover:border-signal-pass/60 hover:shadow-lg dark:border-line-dark dark:bg-ink-900 dark:shadow-card-dark dark:hover:border-signal-pass/40">
                   <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-signal-pass/10 text-signal-pass">
                     <Icon className="h-5 w-5" />
                   </div>
